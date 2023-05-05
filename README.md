@@ -1,5 +1,2 @@
-# Personality-Prediction-ML
-## Final Year Project Repository
-Dataset - tfidf
-Streamlit - Personality.py
-
+# Personality-Prediction
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://personalityprediction.streamlit.app/)
