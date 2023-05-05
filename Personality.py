@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Define the file paths
-ML_Model = 'Models/model_cat.pkl'
+ML_Model = 'model_cat.pkl'
 
 st.set_page_config(page_title="Personality Prediction",layout="centered")
 # Define the Streamlit app
@@ -156,7 +156,7 @@ def app():
                     st.write(f"{mbti_type}: {full_form}")
             
         except Exception as e:
-            st.error('Please provide a response to the textual question.')
+            st.error(e)
 
             # Add an accordion to display additional information
 
