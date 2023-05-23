@@ -13,7 +13,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 ML_Model = 'model_cat.pkl'
 st.set_page_config(page_title="Personality Prediction",layout="centered")
 #Background image
-st.markdown(f"""<style>body {background-color:red;}</style>""", unsafe_allow_html=True)
+st.markdown(f"""<style>.stApp {{background-color:red;}}</style>""", unsafe_allow_html=True)
 #background: rgb(16,13,62);
 
 # Define the Streamlit app
