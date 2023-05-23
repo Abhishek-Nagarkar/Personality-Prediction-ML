@@ -17,10 +17,10 @@ st.markdown(
     f"""
     <style>
     .reportview-container {{
-        background-color: linear-gradient(to right, blue, skyblue)
+        background-image: linear-gradient(to right, red, yellow)
     }}
    .sidebar .sidebar-content {{
-       background-color: linear-gradient(to right, blue, skyblue)
+       background-image: linear-gradient(to right, red, yellow)
     }}
     </style>
     """,
