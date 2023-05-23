@@ -11,7 +11,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Define the file paths
 ML_Model = 'model_cat.pkl'
-
+st.set_page_config(page_title="Personality Prediction",layout="centered")
 #Background image
 page_bg_img = f"""
 
@@ -23,7 +23,7 @@ background-color: linear-gradient(90deg, rgba(16,13,62,1) 0%, rgba(33,33,135,1) 
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 #background: rgb(16,13,62);
-st.set_page_config(page_title="Personality Prediction",layout="centered")
+
 # Define the Streamlit app
 
 def app():
