@@ -14,16 +14,13 @@ ML_Model = 'model_cat.pkl'
 st.set_page_config(page_title="Personality Prediction",layout="centered")
 #Background image
 st.markdown(
-    f"""
+    f'
     <style>
-    .reportview-container {{
-        background-image: linear-gradient(to right, red, yellow)
-    }}
-   .sidebar .sidebar-content {{
-       background-image: linear-gradient(to right, red, yellow)
-    }}
+    div {
+        background-color: red;
+    }
     </style>
-    """,
+    ',
     unsafe_allow_html=True
 )
 #background: rgb(16,13,62);
@@ -32,7 +29,7 @@ st.markdown(
 
 def app():
     # Add a title to the app
-    st.title("Personality Prediction Questionnaire")
+    st.title("Personality Prediction System")
     st.write("-----------------------------------------------------")
     
     # Define the questions and options
