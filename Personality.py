@@ -17,11 +17,11 @@ page_bg_img = f"""
 
 <style>
 [data-testid="stAppViewContainer"] {{
-background: rgb(16,13,62);
-background: linear-gradient(90deg, rgba(16,13,62,1) 0%, rgba(33,33,135,1) 45%, rgba(18,176,208,1) 100%);
+
+background-color: linear-gradient(90deg, rgba(16,13,62,1) 0%, rgba(33,33,135,1) 45%, rgba(18,176,208,1) 100%);
 </style>
 """
-
+#background: rgb(16,13,62);
 st.set_page_config(page_title="Personality Prediction",layout="centered")
 # Define the Streamlit app
 
