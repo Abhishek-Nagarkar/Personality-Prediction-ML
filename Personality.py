@@ -168,7 +168,7 @@ def app():
 
 
 def collect_responses(questions, options, text_questions):
-    st.subheader("MCQ Questions")
+    st.subheader("Personality Assessment Questionnaire")
     st.caption("Select an option for each question.")
     # Collect input for numerical questions with 5 predefined options
     responses = []
